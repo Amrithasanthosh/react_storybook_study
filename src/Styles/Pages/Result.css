@@ -1,0 +1,101 @@
+.result {
+  background-color: #368999;
+  width: 100%;
+  height: 100vh;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.result button {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 0.6rem;
+  border: 2px solid #7a9ab1;
+  color: #482307;
+  background-image: linear-gradient(to bottom, #fff, #f8eedb);
+  border: 0 solid #e5e7eb;
+  box-shadow: -6px 8px 10px rgba(81, 41, 10, 0.1),
+    0px 2px 2px rgba(81, 41, 10, 0.2);
+  font-family: ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 100%;
+  font-weight: 700;
+  line-height: 24px;
+  outline: 2px solid transparent;
+}
+
+.result button:active {
+  background-color: #f3f4f6;
+  box-shadow: -1px 2px 5px rgba(81, 41, 10, 0.15),
+    0px 1px 1px rgba(81, 41, 10, 0.15);
+  transform: translateY(0.125rem);
+}
+
+.result button:hover {
+  transition: 1s color;
+}
+
+.result-container {
+  background-color: #75348d;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: cursive;
+}
+
+.box-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.box,
+.attended,
+.unattended {
+  padding: 1rem;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 110px;
+}
+
+.attended {
+  background-color: #f1fcf6;
+  color: #2dd274;
+}
+
+.unattended {
+  color: #f71800;
+  background-color: #fff8f7;
+}
+
+.attended > div:nth-child(2),
+.unattended > div:nth-child(2) {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.congrats {
+  font-weight: 700;
+  font-size: 30px;
+  font-family: cursive;
+  color: #dfad25;
+}

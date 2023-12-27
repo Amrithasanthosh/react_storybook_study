@@ -1,0 +1,25 @@
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.counter button {
+  border-radius: 50%;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  font-weight: 700;
+  background-color: blue;
+  outline: none;
+  border: none;
+}
+
+.counter button:disabled {
+  background-color: gray;
+  cursor: no-drop;
+}

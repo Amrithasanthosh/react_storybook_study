@@ -1,0 +1,31 @@
+.textinput {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.textinput label {
+  font-weight: 600;
+  color: gray;
+}
+
+.textinput span {
+  color: red;
+}
+
+.textinput input {
+  padding: 0.6rem;
+  box-sizing: border-box;
+  border: 2px solid #e6e6e6;
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* .textinput input:active,
+.textinput input:focus,
+.textinput input:focus-visible {
+  border: 2px solid #066fb0;
+  outline: none;
+} */
