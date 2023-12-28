@@ -11,6 +11,4 @@ export type AlertBoxPropType = {
     | "light"
     | "dark";
   children?: React.ReactNode;
-  show?: boolean;
-  toggleShow?: (value: boolean) => void;
 };
